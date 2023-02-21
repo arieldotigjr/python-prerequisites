@@ -2,7 +2,7 @@
 
 1.  Check if you already have Python (any version from 3.9 or higher is okay) by opening your command prompt and issuing the command `python --version`. If it returns a version number, then you already have it installed. If you have a python version lower than ***3.9***, uninstall it from control panel and proceed to the next step.
 
-![python_version](python_version.png)
+![python_version](python_version.PNG)
 
 2. If you don't have Python installed in your system, then you can follow these instructions to install it. 
 - Download Python from the official python website [here](https://www.python.org/downloads/).
