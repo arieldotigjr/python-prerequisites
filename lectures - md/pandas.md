@@ -4,9 +4,11 @@
 
 ## Creating a dataframe
 
-Column names are `first_name`, `last_name`, `student_grade` and `id_number` as the index of the dataframe. In this approach, we need to ensure that all of our lists that we'll transfer to the dataframe has the same lenght or else the Python interpreter will return a `ValueError: Length of values (<length of list>) does not match length of index`
+Column names are `first_name`, `last_name`, `student_grade` and `id_number` as the index of the dataframe.
 
 1. From lists
+
+In this approach, we need to ensure that all of our lists that we'll transfer to the dataframe has the same lenght or else the Python interpreter will return a `ValueError: Length of values (<length of list>) does not match length of index`
 
 ```python
 import pandas as pd
