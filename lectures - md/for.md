@@ -1,4 +1,6 @@
 # For loops
+## Flowchart
+![]('for-loop-python.jpg')
 ## Syntax
 Like any other Python loops, the line of code that contains the while statement and expression needs to be terminated by the ***colon(:)*** character and the ***block of codes inside the loop should be indented.***
 ```python
