@@ -50,10 +50,10 @@
 7. Dictionaries - enclosed by curly brackets {}, **key-value pair**. You can use .get() method to get the value of a key from dictionary
     ```python
     my_sample_dict = {
-        'first_name': 'Ariel',
-        'last_name': 'Dotig',
+        'first_name': 'firstname_sample',
+        'last_name': 'secondname_sample',
         'suffix':'jr.',
-        'email_address': 'ariel.dotigjr@asurion.com'
+        'email_address': 'example@example.com'
     }
     #to get the value of the first_name from my_sample_dict, you can use below command
     my_sample_dict.get('first_name')
