@@ -11,4 +11,11 @@ If you have a function inside that module and you want to call it
 import MyModule
 some_operation = MyModule.function_name()
 ```
+
+```python
+#Code snippet for the challengs
+numbers = input('Enter the number in tuple or list format: ')
+max_number = max(tuple(numbers))
+print(f'The largest number is {max_number}.')
+```
 **Note: You do not need to import modules that are already built-in in Python**
