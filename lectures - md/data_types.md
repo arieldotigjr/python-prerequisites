@@ -15,7 +15,9 @@
     ```
     - fraction
     ```python
-        c = 3/4
+    # you will need to import the module fraction
+    from fractions import Fraction as frac
+        c = frac(3,4)
     ```
     - complex numbers
     ```python
