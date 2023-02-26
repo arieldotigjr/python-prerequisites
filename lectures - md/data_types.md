@@ -1,10 +1,8 @@
 # Data types in Python
 
-1. Boolean - can only have True or False as value. Defaults to False if the variable does not have any content.
-
+1. Strings - enclosed by either single quotes (`) or double quotes(")
     ```python
-    a = True
-    b = False
+    sample = 'This is a string.'
     ```
 2. Numbers
     - integer
@@ -23,22 +21,30 @@
     ```python
         d = 3 + 4j
     ```
-3. Strings - enclosed by either single quotes (`) or double quotes(")
+3. Boolean - can only have True or False as value. Defaults to False if the variable does not have any content.
+
     ```python
-    sample = 'This is a string.'
+    a = True
+    b = False
     ```
 4. Byte and Byte Arrays
     ```python
     sample = bytearray(15)
     ```
-5. lists - enclosed by brackets ([]), mutable and 0-indexed. Can contain any type of data type as it's element. A data type that is iteratable (sequence)
+5. Lists - enclosed by brackets ([]), mutable and 0-indexed. Can contain any type of data type as it's element. A data type that is iteratable (sequence)
     ```python
     my_sample_list = ['element',1,[15,2],(4,2,1)]
+    #lists are mutable
+    my_sample_list[0] = 'new value' #This line will change the index 0 (first) element of the list
     ```
-6. tuple - Unlike list, tuple is immutable (elements are fixed). Enclosed by parentheses. Can also contain any data type as it's element, iteratable (sequence)
+
+6. Tuples - Unlike list, tuple is immutable (elements are fixed). Enclosed by parentheses. Can also contain any data type as it's element, iteratable (sequence)
     ```python
     my_sample_tuple = (1,2,'string',['list','inside','tuple'])
+    #tuples are immutable
+    my_sample_tuple[0] = 'new value' # => This will return an error since tuples are immutable and you cannot change the value of its element. You can only append new values using the .append() method
     ```
+
 7. Dictionaries - enclosed by curly brackets {}, **key-value pair**. You can use .get() method to get the value of a key from dictionary
     ```python
     my_sample_dict = {
