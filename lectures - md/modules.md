@@ -13,9 +13,9 @@ some_operation = MyModule.function_name()
 ```
 
 ```python
-#Code snippet for the challengs
-numbers = input('Enter the number in tuple or list format: ')
-max_number = max(tuple(numbers))
+#Code snippet for the challenge
+numbers_list = [6,1,3,18,12,49,77,54,12]
+max_number = max(numbers_list)
 print(f'The largest number is {max_number}.')
 ```
 **Note: You do not need to import modules that are already built-in in Python**
